@@ -47,37 +47,37 @@ document.querySelectorAll("section").forEach(section=>{
     observer.observe(section);
 });
 const words = [
-    "Blockchain Explorer",
-    "Web3 Project Tester",
-    "Crypto Researcher",
-    "AI Enthusiast"
+  "Blockchain Explorer",
+  "Web3 Project Tester",
+  "Crypto Researcher",
+  "AI Enthusiast"
 ];
-
-let wordIndex = 0;
-let charIndex = 0;
-let deleting = false;
 
 const typing = document.getElementById("typing");
 
-function typeEffect() {
-    const current = words[wordIndex];
+let i = 0;
+let j = 0;
+let deleting = false;
 
-    if (!deleting) {
-        typing.textContent = current.substring(0, charIndex++);
-        if (charIndex > current.length) {
-            deleting = true;
-            setTimeout(typeEffect, 1500);
-            return;
-        }
-    } else {
-        typing.textContent = current.substring(0, charIndex--);
-        if (charIndex < 0) {
-            deleting = false;
-            wordIndex = (wordIndex + 1) % words.length;
-        }
+function type() {
+  const word = words[i];
+
+  if (!deleting) {
+    typing.textContent = word.substring(0, j++);
+    if (j > word.length) {
+      deleting = true;
+      setTimeout(type, 1500);
+      return;
     }
+  } else {
+    typing.textContent = word.substring(0, j--);
+    if (j < 0) {
+      deleting = false;
+      i = (i + 1) % words.length;
+    }
+  }
 
-    setTimeout(typeEffect, deleting ? 60 : 100);
+  setTimeout(type, deleting ? 50 : 100);
 }
 
-typeEffect();
+type();
