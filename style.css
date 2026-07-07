@@ -283,11 +283,6 @@ text-shadow:0 0 20px #3b82f6,0 0 40px #7c3aed;
 100%{
 text-shadow:0 0 5px #3b82f6;
 }
-}
-
-.hero h1{
-animation:glow 2s infinite;
-}
 a{
 color:#60a5fa;
 text-decoration:none;
