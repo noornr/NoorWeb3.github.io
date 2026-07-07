@@ -1,5 +1,9 @@
 console.log("Welcome to NOOR WEB3");
 
+window.onload = function () {
+    document.body.style.opacity = "1";
+};
+
 const topBtn = document.getElementById("topBtn");
 
 window.onscroll = function () {
