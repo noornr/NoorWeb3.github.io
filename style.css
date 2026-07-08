@@ -737,3 +737,8 @@ backdrop-filter:blur(12px);
 -webkit-backdrop-filter:blur(12px);
 box-shadow:0 0 20px rgba(59,130,246,.25);
 }
+body{
+
+padding-top:90px;
+
+}
