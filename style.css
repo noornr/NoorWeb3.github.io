@@ -744,21 +744,6 @@ box-shadow:
 0 0 45px rgba(59,130,246,.6),
 0 0 80px rgba(236,72,153,.35);
 }
-button{
-padding:16px 38px;
-margin:12px;
-border:none;
-border-radius:50px;
-background:linear-gradient(90deg,#0ea5ff,#7c3aed,#ec4899);
-background-size:300% 300%;
-color:white;
-font-size:18px;
-font-weight:bold;
-cursor:pointer;
-transition:.4s;
-animation:gradientMove 5s linear infinite;
-box-shadow:0 0 25px rgba(99,102,241,.5);
-}
 
 button:hover{
 transform:translateY(-5px) scale(1.05);
