@@ -562,9 +562,11 @@ grid-template-columns:1fr;
 }
 
 .project-grid{
-display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:15px;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:8px;
+    max-width:720px;
+    margin:auto;
 }
 .project-card{
 min-height:220px;
