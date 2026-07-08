@@ -1,23 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&display=swap');
 body{
 font-family:Arial,sans-serif;
-background:#050816;
+background:#050505;
 background-image:
-radial-gradient(circle at 20% 20%,rgba(37,99,235,.35),transparent 35%),
-radial-gradient(circle at 80% 30%,rgba(168,85,247,.35),transparent 35%),
-radial-gradient(circle at 70% 80%,rgba(236,72,153,.30),transparent 35%),
-linear-gradient(135deg,#050816,#0b1023,#090d1f);
+radial-gradient(circle at 20% 20%,rgba(255,215,0,.08),transparent 35%),
+radial-gradient(circle at 80% 30%,rgba(255,180,0,.06),transparent 35%),
+radial-gradient(circle at 70% 80%,rgba(255,215,0,.05),transparent 35%),
+linear-gradient(135deg,#030303,#0a0a0a,#050505);
 background-attachment:fixed;
 color:#fff;
 overflow-x:hidden;
-}
-html{
-scroll-behavior:smooth;
-}
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
 }
 
 .logo{
