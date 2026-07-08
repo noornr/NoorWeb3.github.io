@@ -783,11 +783,6 @@ box-shadow:
 0 0 80px rgba(236,72,153,.35);
 }
 
-button:hover{
-transform:translateY(-5px) scale(1.05);
-box-shadow:0 0 45px rgba(236,72,153,.8);
-}
-
 a{
 color:#60a5fa;
 text-decoration:none;
