@@ -662,6 +662,45 @@ animation:pulseGlow 6s ease-in-out infinite;
 
 z-index:-2;
 }
+.hero::after{
+
+content:"";
+
+position:absolute;
+
+width:620px;
+height:620px;
+
+top:50%;
+left:50%;
+
+transform:translate(-50%,-50%);
+
+border-radius:50%;
+
+border:2px solid rgba(255,215,0,.15);
+
+box-shadow:
+0 0 30px rgba(255,215,0,.25),
+inset 0 0 30px rgba(255,215,0,.15);
+
+animation:rotateRing 18s linear infinite;
+
+z-index:-1;
+
+}
+
+@keyframes rotateRing{
+
+from{
+transform:translate(-50%,-50%) rotate(0deg);
+}
+
+to{
+transform:translate(-50%,-50%) rotate(360deg);
+}
+
+}
 .project-card::before{
 content:"";
 position:absolute;
