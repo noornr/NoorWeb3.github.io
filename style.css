@@ -680,10 +680,10 @@ transition:.35s;
 }
 
 .profile:hover{
-transform:translateY(-6px);
-box-shadow:0 0 40px rgba(59,130,246,.45);
+transform:translateY(-8px);
+border-color:#FFD700;
+box-shadow:0 0 45px rgba(255,215,0,.35);
 }
-
 .profile h2{
 color:#FFD700;
 margin-bottom:15px;
