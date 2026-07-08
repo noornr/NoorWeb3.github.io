@@ -651,10 +651,6 @@ animation:pulseGlow 5s ease-in-out infinite;
 z-index:-1;
 
 }
-.project-card{
-position:relative;
-overflow:hidden;
-}
 
 .project-card::before{
 content:"";
