@@ -528,8 +528,8 @@ grid-template-columns:1fr;
     margin:auto;
 }
 .project-card{
-min-height:220px;
-padding:20px;
+min-height:135px;
+padding:10px;
 }
 
 .project-card img{
