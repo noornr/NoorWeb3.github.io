@@ -268,7 +268,7 @@ text-align:center;
 .project-grid{
     display:grid;
     grid-template-columns:repeat(3, 1fr);
-    gap:20px;
+    gap:28px;
     max-width:760px;
     margin:auto;
 }
