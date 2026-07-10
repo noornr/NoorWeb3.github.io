@@ -761,7 +761,7 @@ transition:.45s;
         0 0 15px rgba(255,215,0,.5),
         0 0 35px rgba(255,215,0,.25);
 }
-}
+
 .glass-card:hover{
     transform:translateY(-8px);
 
