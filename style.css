@@ -23,7 +23,7 @@ radial-gradient(circle at 20% 20%,rgba(255,215,0,.08),transparent 35%),
 radial-gradient(circle at 80% 30%,rgba(255,180,0,.06),transparent 35%),
 radial-gradient(circle at 70% 80%,rgba(255,215,0,.05),transparent 35%),
 linear-gradient(135deg,#030303,#0a0a0a,#050505);
-background-attachment:fixed;
+background-attachment:scroll;
 color:#fff;
 overflow-x:hidden;
 }
