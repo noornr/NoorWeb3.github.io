@@ -1194,20 +1194,23 @@ button{
 
 .project-grid{
     grid-template-columns:repeat(2,1fr);
-    gap:15px;
+    gap:6px;
 }
 
 .project-card img{
-    width:50px;
-    height:50px;
+    width:42px;
+    height:42px;
+    margin-bottom:6px;
 }
 
 .project-card h3{
-    font-size:16px;
+    font-size:15px;
+    margin:6px 0 3px;
 }
 
 .project-card p{
-    font-size:12px;
+    font-size:11px;
+    line-height:1.2;
 }
 
 }
