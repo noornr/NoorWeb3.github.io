@@ -1157,6 +1157,7 @@ nav ul.active{
     .hero{
     min-height:auto;
     padding:40px 15px;
+    overflow:visible;
 }
 
 .glass-card{
@@ -1173,11 +1174,14 @@ nav ul.active{
 }
 
 .hero h1{
-    font-size:40px;
-    letter-spacing:1px;
+    font-size:34px;
+    letter-spacing:0;
+    line-height:1.2;
+    white-space:nowrap;
     overflow:visible;
-    white-space:normal;
-    word-break:break-word;
+    display:block;
+    width:100%;
+    text-align:center;
 }
 
 .glass-card{
