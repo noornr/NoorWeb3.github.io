@@ -1050,16 +1050,27 @@ opacity:1;
 }
 
 .intro-image{
-    width:100%;
-    display:flex;
-    justify-content:center;
-    margin-bottom:25px;
+    padding:4px;
+    background:transparent !important;
+
+    border:3px solid #FFD700;
+    border-radius:24px;
+
+    box-shadow:
+        0 0 18px rgba(255,215,0,.8),
+        0 0 35px rgba(255,215,0,.45);
+
+    overflow:hidden;
 }
 
 .intro-image img{
     width:220px;
     height:270px;
+    display:block;
     object-fit:cover;
+
+    border-radius:18px;
+    background:transparent;
 }
 
 .intro-content{
