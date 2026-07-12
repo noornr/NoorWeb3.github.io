@@ -752,12 +752,15 @@ opacity:1;
 .intro-image{
     position:relative;
     display:inline-block;
-    border-radius:22px;
-    padding:5px;
-    background:#FFD700;
+
+    padding:2px;
+
+    border-radius:18px;
+
+    background:#D4AF37;
+
     box-shadow:
-        0 0 15px rgba(255,215,0,.8),
-        0 0 35px rgba(255,215,0,.5);
+        0 0 6px rgba(212,175,55,.25);
 }
 
 .intro-image img{
