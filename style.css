@@ -591,10 +591,6 @@ font-size:18px;
 color:#94a3b8;
 margin-top:10px;
 }
-.hero{
-position:relative;
-overflow:hidden;
-}
 
 .hero::before{
 content:"";
