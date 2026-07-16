@@ -1,1 +1,102 @@
 
+/* =========================
+   BLOCKCHAIN PAGE
+========================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;900&display=swap');
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#050505;
+    color:#fff;
+}
+
+.blockchain-hero{
+    max-width:1400px;
+    margin:auto;
+    padding:100px 8%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:80px;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.breadcrumb{
+    color:#bdbdbd;
+    margin-bottom:30px;
+    font-size:16px;
+}
+
+.hero-text h1{
+    font-family:'Orbitron',sans-serif;
+    font-size:70px;
+    line-height:1.15;
+    margin:0;
+    color:white;
+}
+
+.hero-text h1 span{
+    color:#FFD700;
+}
+
+.hero-text p{
+    margin-top:35px;
+    font-size:22px;
+    line-height:1.9;
+    color:#d6d6d6;
+    max-width:700px;
+}
+
+.hero-image{
+    flex:1;
+    text-align:center;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:520px;
+    animation:float 5s ease-in-out infinite;
+}
+
+@keyframes float{
+
+0%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-15px);
+}
+
+100%{
+transform:translateY(0px);
+}
+
+}
+
+@media(max-width:900px){
+
+.blockchain-hero{
+flex-direction:column;
+text-align:center;
+padding:60px 20px;
+}
+
+.hero-text h1{
+font-size:42px;
+}
+
+.hero-text p{
+font-size:18px;
+}
+
+.hero-image img{
+max-width:320px;
+}
+
+}
